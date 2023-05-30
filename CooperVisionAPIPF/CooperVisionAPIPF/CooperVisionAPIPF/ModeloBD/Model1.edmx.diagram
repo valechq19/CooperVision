@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="98849f5a97ea48509b6204f35a8a5ebe" Name="Diagram1">
+        <EntityTypeShape EntityType="AccessRequestsModel.Access" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Approver" Width="1.5" PointX="1.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Headquarter" Width="1.5" PointX="1.5" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Position" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Request" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Status" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.Supervisor" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.System" Width="1.5" PointX="1.5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.AccessPosition" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccessRequestsModel.AccessRequested" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="AccessRequestsModel.FkAccess" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkAccess2" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkApprover" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkHeadquarter" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkEmployee" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkPosition" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkPosition2" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkSupervisor" ManuallyRouted="false" />
+        <AssociationConnector Association="AccessRequestsModel.FkStatus" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
